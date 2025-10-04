@@ -6,14 +6,14 @@
  
     Build an interactive dashboard to visualize sales performance by **Product**, **Region**, and **Month-Year** using Tableau. The goal is to create a clean, business-friendly dashboard     that highlights key trends and supports decision-making.
 
-## 🛠 Tools Used
+🛠 Tools Used
 
 - **Tableau Public/Desktop** for dashboard creation
-- 
+ 
 - *(Optional)* **Python + Pandas** for data cleaning
--  
+  
 - **Dataset**: `Superstore_cleaned.xlsx`
-- 
+  
   - Key Columns: `Date`, `Region`, `Product`, `TotalPrice`, `Quantity`, `Order Status`
 
 
@@ -30,7 +30,9 @@
     Month-Year = DATENAME('month', [Date]) + " " + STR(YEAR([Date]))Use this field for time-based analysis
 
 3. Build Visuals
+4. 
 📈 Line Chart: Sales Over Time
+
 Columns: Month-Year
 
 Rows: SUM(TotalPrice)
@@ -38,6 +40,7 @@ Rows: SUM(TotalPrice)
 Color: Region or Product
 
 📊 Bar Chart: Sales by Region
+
 Columns: Region
 
 Rows: SUM(TotalPrice)
@@ -45,6 +48,7 @@ Rows: SUM(TotalPrice)
 Sort descending, apply color to highlight top regions
 
 🍩 Donut Chart: Sales by Product
+
 Marks: Pie → Inner Radius for donut effect
 
 Sections: Product
@@ -81,7 +85,7 @@ Export as a twb file
 
 📌 Outcome
   
-    You’ll gain hands-on experience building a clean, interactive dashboard and learn how to summarize performance visually for business users that leads better insights ,patterns        extraction
+    You’ll gain hands-on experience building a clean, interactive dashboard and learn how to summarize performance visually for business users that leads better insights ,patterns            extraction
 
 
 
